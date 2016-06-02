@@ -1,0 +1,10 @@
+pages:
+- Produtos: # Page Posts
+  - products:
+      table:
+        # columns to display
+        display: [id, name, price, description, published, published_at]
+      form:
+        types:
+          # change content field from a textarea to a markdown wysiwyg
+          description: markdown
